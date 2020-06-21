@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;   
+}
+
+body {
+    font-family: "Oswald" , sans-serif;
+    background: #9C33FF;
+    background-color: #e192d8;
+    background-color: #961cea;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='50' height='40' viewBox='0 0 50 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23f997ff' fill-opacity='0.4'%3E%3Cpath d='M40 10L36.67 0h-2.11l3.33 10H20l-2.28 6.84L12.11 0H10l6.67 20H10l-2.28 6.84L2.11 10 5.44 0h-2.1L0 10l6.67 20-3.34 10h2.11l2.28-6.84L10 40h20l2.28-6.84L34.56 40h2.1l-3.33-10H40l2.28-6.84L47.89 40H50l-6.67-20L50 0h-2.1l-5.62 16.84L40 10zm1.23 10l-2.28-6.84L34 28h4.56l2.67-8zm-10.67 8l-2-6h-9.12l2 6h9.12zm-12.84-4.84L12.77 38h15.79l2.67-8H20l-2.28-6.84zM18.77 20H30l2.28 6.84L37.23 12H21.44l-2.67 8zm-7.33 2H16l-4.95 14.84L8.77 30l2.67-8z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.logo {
+   width: 20%;
+   padding: 50px;
+   margin-top: 50px;
+   margin-right: 15%;
+}
+
+.titulo {
+    font-size: 60px;
+}
+
+.h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.logo-nav {
+    font-size: 17px;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 12px;
+}
+
+.brain {
+    width: 40%;
+    height: 300px;
+    margin-left: 30%;
+    margin-top: 30px;
+}
+
+.p1 {
+    text-align:   justify;
+    justify-content: center;
+    margin-top: 7px;
+}
+
+.polo {
+    list-style: none;
+}
+
+.btm {
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #0000ff;
+    color: #ffffff;
+    font-size: 15px;
+    border: 1px solid #ffffff;
+    margin: 10px 0;
+}
+
+.btm:hover {
+    opacity: .5;
+}
+
+.lista {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 25px;
+    margin: 30px;
+    padding: 15px;
+    margin-bottom: 70px;
+}
+
+.lista img {
+    width: 100%; 
+    height: 200px;
+}
+
+.lista h4 {
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 5px;
+    color: #B9FF00;
+}
+
+.fab {
+    font-size: 35px;
+    text-align: center;
+}
+
+.social-bar {
+    position: fixed;
+    left: 1240px;
+    top: 250px;
+    list-style: none;
+}
+
+.social-bar a{
+    display: inline-block;
+    color: #fff;
+    background-color: #B9FF00;
+    z-index: 0;
+    padding: 3px 7px;
+    text-decoration: none;
+    transition: 0.1s ease;
+}
+
+
+
+
+
